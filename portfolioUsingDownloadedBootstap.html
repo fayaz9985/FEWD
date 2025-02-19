@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fayaz Mohammed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ContactInformation">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="About" class="container my-5">
+    <h2 class="text-primary text-center">About</h2>
+    <p class="text-center"> Passionate Web Development Engineer with practical experience in full-stack development, AI 
+        integration, and problem-solving, creating impactful real-world solutions.</p>
+    </section>
+    <section id="Skills" class="container my-5">
+        <h2 class="text-primary">Skills</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><b>Programming Languages :</b>c,c++,python,java,javascript</li><br>
+            <li class="list-group-item"><b>Technologies & Frameworks :</b>MERN,Github,Spring</li><br>
+            <li class="list-group-item"><b>Soft Skills : </b>Communication,Leadership</li>
+
+        </ul>
+    </section>
+    <section id="Projects" class="container my-5">
+        <h2 class="text-primary">Projects</h2>
+        <ul class="row my-3">
+            <li class="col-md-6 border py-3 list-unstyled ">
+           <div id="project1">
+            <h4><b> PathGen AI - Personalized Learning Path Generator </b></h4>
+            <ul>
+                <li> Description:  PathGen AI is an intelligent Generative  AI-based platform designed to create and dynamically 
+                adjust personalized learning paths for students. By analyzing learning styles, goals, performance, and 
+                feedback, the system tailors educational journeys, ensuring efficient and adaptive progress.</li><br>
+            <li>Technologies:<i>MERN(MongoDB,Express.js,React.js,Node.js), GENAI(T5-model , Cohere) </i></li><br>
+             <li class="list-unstyled" ><a class="btn btn-primary" href="Pathgen">Github Link</a></li>
+    </ul>
+        </div>
+        </li>
+        <li class="col-md-6 border py-3 list-unstyled">
+    <div id="project2">
+    <h4><b> Movie Recommendation System </b></h4>
+    <ul>
+        <li> Description:A system that suggests movies based on user preferences using collaborative filtering or content-based filtering. </li><br>
+        <li>Technologies: <i>Python,Scikit-learn,Pandas,Surprise Library(for recommendations) </i></li><br>
+        <li class="list-unstyled"><a class="btn btn-primary" href="MovieREC">Github Link</a></li>
+    </ul>
+        </div>
+        </li></ul>
+    </section>
+
+    <section id="Feedback/Achievements" class="container my-5">
+        <h2 class="text-primary">FeedBack/Achievements</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                Improved the performance of a critical piece of code in google maps by refactoring algorithms,reduction execution time by 12%.
+            </li><br>
+            <li class="list-group-item">
+                Contributed to an open-source project on Github,improving functionality and addressing bugs reported by users
+            </li>
+        </ul>
+    </section>
+    <section id="Eduction" class="container my-5">
+        <h2 class="text-primary">Eduction Profile</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><h3> Keshav Memorial Institute of Technology, Hyderabad </h3>
+                <p>B.tech in Computer Science and Engineering-CGPA:8.7/10  </p>
+            </li>
+            <li class="list-group-item">
+                <h3>Kendriya Vidyalaya sangathan,Warangal</h3>
+                <p> 11-12 CBSE-82/100</p>
+            </li>
+            <li class="list-group-item">
+                <h3>Kiwi Public School,Warangal</h3>
+                <p> SSC(Secondary School Certificate) - GPA:10/10 </p>
+            </li>
+        </ul>
+    </section>
+    <section id="ContactInformation" class="container my-5 text-center">
+        <h2 class="text-primary">Contact Information</h2>
+        <form action="mailto:mohammedfayaz@gmail.com">
+            <label for="email"></label>
+            Send Mail to: <input class="btn btn-success" type="submit" id="email" value="mohammedfayaz@gmail.com"><br><br>
+            Call us on:
+            <a  class="btn btn-success" href="tel:+91 9876543210">9876543210</a>
+        </form>
+       
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2025 Fayaz Mohammed | Web Development Engineer
+    </footer>
+    
+</body>
+</html>
